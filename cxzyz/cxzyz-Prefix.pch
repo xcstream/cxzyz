@@ -14,3 +14,15 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+
+#define baseurl @"http://123.157.108.197:8081/"
+
+#define url_login @"zyz/volunteerInfo.do?method=loginVolunteerApp"
+#define url_query_project_recorder @"zyz/Project.do?method=query_project_recorder_app"
+#define url_query_myprojects @"zyz/TimeBank.do?method=query_project_attend_app"
+#define url_register @"zyz/volunteerInfo.do?method=addVolunteerByApp"
+#define url_query_record @"zyz/record.do?method=query_record_project_app"
+#define url_query_checkin @"zyz/record.do?method=transmit_data_app"
+
+
